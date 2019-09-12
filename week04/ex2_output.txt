@@ -1,0 +1,41 @@
+-+= 52748 egor /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+ |-+= 57971 root login -pf egor
+ | \-+= 57972 egor -bash
+ |   \-+= 77405 egor ./ex2
+ |     |-+- 77406 egor ./ex2
+ |     | |-+- 77410 egor ./ex2
+ |     | | |-+- 77417 egor ./ex2
+ |     | | | |-+- 77429 egor ./ex2
+ |     | | | | \--- 77436 egor ./ex2
+ |     | | | \--- 77435 egor ./ex2
+ |     | | |-+- 77425 egor ./ex2
+ |     | | | \--- 77434 egor ./ex2
+ |     | | \--- 77433 egor ./ex2
+ |     | |-+- 77413 egor ./ex2
+ |     | | |-+- 77421 egor ./ex2
+ |     | | | \--- 77432 egor ./ex2
+ |     | | \--- 77431 egor ./ex2
+ |     | |-+- 77418 egor ./ex2
+ |     | | \--- 77428 egor ./ex2
+ |     | \--- 77426 egor ./ex2
+ |     |-+- 77407 egor ./ex2
+ |     | |-+- 77411 egor ./ex2
+ |     | | |-+- 77419 egor ./ex2
+ |     | | | \--- 77430 egor ./ex2
+ |     | | \--- 77427 egor ./ex2
+ |     | |-+- 77416 egor ./ex2
+ |     | | \--- 77424 egor ./ex2
+ |     | \--- 77422 egor ./ex2
+ |     |-+- 77408 egor ./ex2
+ |     | |-+- 77414 egor ./ex2
+ |     | | \--- 77423 egor ./ex2
+ |     | \--- 77420 egor ./ex2
+ |     |-+- 77409 egor ./ex2
+ |     | \--- 77415 egor ./ex2
+ |     \--- 77412 egor ./ex2
+ \-+= 58128 root login -pf egor
+   \-+= 58129 egor -bash
+     \-+= 77437 egor pstree 52748
+       \--- 77438 root ps -axwwo user,pid,ppid,pgid,command
+
+Number of processes is 2^3

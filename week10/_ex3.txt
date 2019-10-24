@@ -1,0 +1,1 @@
+-rwxrwxrwx  1 egor  staff  0 24 окт 23:46 _ex3.txt

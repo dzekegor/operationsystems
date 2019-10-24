@@ -1,0 +1,10 @@
+link ../week01/file.txt _ex2.txt > ex2.txt //1st commmand
+../week01/file.txt
+
+ls -i ../week01/file.txt
+6374107 ../week01/file.txt //inum
+
+find ../week01/file.txt -inum 6374107 >> ex2.txt // 2nd command
+../week01/file.txt
+
+find ../week01/file.txt -inum 6374107 -exec rm {} \; >> ex2.txt

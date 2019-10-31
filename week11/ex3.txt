@@ -1,0 +1,1 @@
+First program prints Hello and one line, second prints Hello and two empty lines. It happens because of different input given to printf functions.
